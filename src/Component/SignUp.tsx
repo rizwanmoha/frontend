@@ -4,7 +4,7 @@ import SignUpImage from "../Pictures/SignUp.png";
 import "./SignIn.css";
 import axios from "axios";
 import { toast, ToastContainer } from 'react-toastify';
-
+import 'react-toastify/dist/ReactToastify.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { baseURL } from '../Config';
 
