@@ -4,7 +4,7 @@ import "./SignIn.css"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 import { baseURL } from '../Config';
 
 export default function SignIn() {
